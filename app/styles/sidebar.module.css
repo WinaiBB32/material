@@ -1,0 +1,33 @@
+:root{
+    --main-color: #027581;
+    --color-dark: #1d2232;
+    --text-grey: #8390a2;
+}
+
+.sidebar{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background: var(--main-color);
+    color: #fff;
+}
+
+.sidebarHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.sidebarHeader .brand{
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
