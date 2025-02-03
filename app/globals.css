@@ -5,3 +5,16 @@
   list-style-type: none;
   box-sizing: border-box;
 }
+
+.main-container{
+  position: relative;
+  margin-left: 250px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background: #fff;
+}

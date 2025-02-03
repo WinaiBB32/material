@@ -1,14 +1,13 @@
 function Navbars() {
   return (
     <>
-    <div className="main_content">
-        <heaber>
+    
+        <header>
             <div>
                 <h3>Brand</h3>
             </div>
-        </heaber>
+        </header>
 
-    </div>
     </>
   )
 }

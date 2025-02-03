@@ -1,5 +1,5 @@
 :root{
-    --main-color: #027581;
+    --main-color: #5a5a5a;
     --color-dark: #1d2232;
     --text-grey: #8390a2;
 }
@@ -13,6 +13,7 @@
     z-index: 100;
     background: var(--main-color);
     color: #fff;
+    overflow-y: auto;
 }
 
 .sidebarHeader{
@@ -30,4 +31,28 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.sidebarMenu{
+    padding: 1rem;
+}
+
+.sidebar li{
+    list-style: none;
+    margin-bottom: 1.2rem;
+}
+
+.sidebar a{
+    color: #fff;
+    font-size: .9rem;
+}
+
+.sidebar li svg{
+    font-size: 1.5rem;
+}
+
+
+
+.sidebar a span:last-child{
+    padding-left: .5rem;
 }
