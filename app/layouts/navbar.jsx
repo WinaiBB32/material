@@ -6,6 +6,7 @@ function Navbars() {
             <div>
                 <h3>Brand</h3>
             </div>
+            
         </header>
 
     </>
